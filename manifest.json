@@ -1,0 +1,19 @@
+{
+    "name": "Download Images",
+    "version": "0.1",
+    "description": "Download All Images on Active Tab",
+	"permissions": ["declarativeContent", "storage", "activeTab", "tabs", "downloads"],
+    "background": {
+        "scripts": ["jquery-3.4.1.min.js", "background.js"]
+    },
+	"browser_action": {
+        "default_title": "Download Images"
+    },
+	"icons": {
+      "16": "icon/icon_16.png",
+      "32": "icon/icon_32.png",
+      "64": "icon/icon_64.png",
+      "128": "icon/icon_128.png"
+    },
+    "manifest_version": 2
+  }
